@@ -1,0 +1,139 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.blog-wrapper
+{
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px 15px #fadddd;
+}
+
+article h1
+{
+    text-align: center;
+    margin-bottom: 15px;
+}
+article h1::first-letter
+{
+    color: #DA0809;
+    font-size: 30px;
+   
+}
+article h3{
+    color: #DA0809;
+    margin: 10px;
+}
+article p.p1-article{ margin: 0 0 10px 20%; }
+.img-circle
+{
+    width: 200px;
+    margin: 5px 10px 0 10px;
+    border-radius: 100%;
+
+}
+    /* ! using flexbox */  
+section.about-me  
+{      
+     display: flex;
+    align-items: center;
+}
+section.about-me p
+{
+    /* display: inline-block; */
+    margin: 50px 20px;
+    /* float: right; */
+    /* margin: 30px 0px 30px 10px; */
+    width: 60%; 
+    white-space: pre-line;  
+}
+section.about-me p span
+{
+    float: left;
+    font-size: 20px;
+    margin: 0 5px 15px 0;
+    line-height: 20%;
+    color: #DA0809;
+    font-weight: 500;
+}
+table td { padding: 15px;  }
+
+a{ color: #DA0809; } 
+
+div.list-container ul
+{
+    padding: 30px;
+    /* margin: 0 auto;
+    display:table; */
+}
+div.list-container ul ol{
+    padding: 20px;
+}
+
+section.sec-skilles p
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+section.sec-skilles b
+{
+    display: block;  /** Make items one line **/
+    border-left: 6px solid #DA0809;
+    margin: 5px;
+    padding: 5px;
+}
+i{
+    color: #DA0809;
+    
+}
+span.items-1
+{
+    margin: 5px;
+}
+span.items-2
+{
+    margin: 10px;
+    position: relative;
+    left: 3%;
+}
+span.items-3
+{
+    margin: 10px;
+    position: relative;
+    left: 4.5%;
+}
+fieldset
+{
+    margin: 5px;
+    padding: 15px;
+}
+legend::first-letter
+{  
+    color: #DA0809;
+    font-size: 24px;
+}
+label{ display: inline-block;  }
+label::first-letter{ color: #DA0809;  }
+input
+{
+    color: #DA0809; 
+    margin: 10px;
+    padding: 5px;
+    outline: none;
+}
+footer{
+    text-align: center;
+    color: #DA0809; 
+}
+
