@@ -33,6 +33,7 @@ article h1::first-letter
 article h3{
     color: #DA0809;
     margin: 10px;
+    font-size: 30px;
 }
 article p.p1-article{ margin: 0 0 10px 20%; }
 .img-circle
@@ -112,6 +113,7 @@ span.items-3
     margin: 10px;
     position: relative;
     left: 4.5%;
+    color: #DA0809;
 }
 fieldset
 {
